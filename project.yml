@@ -1,0 +1,28 @@
+name: Surau
+
+options:
+  bundleIdPrefix: com.surau
+  deploymentTarget:
+    iOS: "18.0"
+  xcodeVersion: "16"
+
+targets:
+  Surau:
+    type: application
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: .
+        excludes:
+          - "project.yml"
+          - "*.xcodeproj/**"
+          - "DerivedData/**"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.surau.app
+        SWIFT_VERSION: 5
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_NAME: Surau
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGNING_REQUIRED: "NO"
+        CODE_SIGNING_ALLOWED: "NO"

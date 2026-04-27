@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0369F0611EC03F5E287F030F /* SurauApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89F1573BA2358819093A49 /* SurauApp.swift */; };
+		06AC6376CFCA6D88E9C4ACD5 /* BrandTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D978D9FF000868E7202159A /* BrandTheme.swift */; };
+		1DC5CECE7057AFF68DF208FA /* BookScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B62BBEDC1E3AAA3FE10CD06 /* BookScreen.swift */; };
+		2A29A0549E746D4F182DF5A4 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D315C846269BFA01C357384 /* AuthViewModel.swift */; };
+		31743346FE6AD2CAE2859035 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C6776B2EC287A2D10FFE6 /* AuthRouter.swift */; };
+		3964A029A5D0EE9FDCF8A480 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47823C1278F90BDED8033FE4 /* BookViewModel.swift */; };
+		5AE5E25C34E194C212F5F150 /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF585752181134C7EB169D6B /* SocialButton.swift */; };
+		5B21C0BE1F4B1AC336599323 /* GeistBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C782B86F2395D28BAF7C50 /* GeistBook.swift */; };
+		60A572F685001FFA15BB485F /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D4E503DABE8ED8D43993D /* ForgotPasswordView.swift */; };
+		81AFBB762F6947FD2DA0B689 /* AuthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CFF5090952FB44423B8EF /* AuthHeader.swift */; };
+		9C914E25DD9396E54A458A2C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D79E160AD5875F0D3E12E /* LoginView.swift */; };
+		9E85C9A4F9F353505B1AE672 /* settings.local.json in Resources */ = {isa = PBXBuildFile; fileRef = CCDD9A9983572533B07DFC11 /* settings.local.json */; };
+		B956521F06D33F520FB72213 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51B3FC14731A891B6D0925 /* SignUpView.swift */; };
+		DF60F97D2178F2381171E204 /* SocialDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2C6373737BAD9ABC5DF277 /* SocialDivider.swift */; };
+		EA5C3B9276B41DAB567AE59C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B4A62B55C250AB255ABF /* PrimaryButton.swift */; };
+		F2228659DD42E732C946BE19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4759B9B4DB117E964782163 /* ContentView.swift */; };
+		F84190C15A2DB1849540FD10 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E92F6C7E6AD1D18C726A9D /* AuthTextField.swift */; };
+		A1B2C3D4E5F60000000000011 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000001 /* MainTabView.swift */; };
+		A1B2C3D4E5F60000000000012 /* ChatAIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000002 /* ChatAIScreen.swift */; };
+		A1B2C3D4E5F60000000000013 /* ChatAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000003 /* ChatAIViewModel.swift */; };
+		A1B2C3D4E5F60000000000014 /* BookmarkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000004 /* BookmarkScreen.swift */; };
+		A1B2C3D4E5F60000000000015 /* BookmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000005 /* BookmarkViewModel.swift */; };
+		A1B2C3D4E5F60000000000016 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000006 /* ProfileScreen.swift */; };
+		A1B2C3D4E5F60000000000017 /* BookDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000007 /* BookDetailScreen.swift */; };
+		A1B2C3D4E5F60000000000018 /* AuthorDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000008 /* AuthorDetailScreen.swift */; };
+		A1B2C3D4E5F60000000000031 /* AnimatedChatInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000030 /* AnimatedChatInput.swift */; };
+		A1B2C3D4E5F60000000000032 /* GrainGradient.metal in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000033 /* GrainGradient.metal */; };
+		A1B2C3D4E5F60000000000034 /* SurauBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60000000000035 /* SurauBackground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074C6776B2EC287A2D10FFE6 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		0A51B3FC14731A891B6D0925 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		1B62BBEDC1E3AAA3FE10CD06 /* BookScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookScreen.swift; sourceTree = "<group>"; };
+		21C782B86F2395D28BAF7C50 /* GeistBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeistBook.swift; sourceTree = "<group>"; };
+		342D4E503DABE8ED8D43993D /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		34626D988F22C173426DDECA /* Surau.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Surau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D978D9FF000868E7202159A /* BrandTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTheme.swift; sourceTree = "<group>"; };
+		47823C1278F90BDED8033FE4 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		5D315C846269BFA01C357384 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		AF585752181134C7EB169D6B /* SocialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
+		BB2C6373737BAD9ABC5DF277 /* SocialDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialDivider.swift; sourceTree = "<group>"; };
+		C042B4A62B55C250AB255ABF /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		CCDD9A9983572533B07DFC11 /* settings.local.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = settings.local.json; sourceTree = "<group>"; };
+		CD89F1573BA2358819093A49 /* SurauApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurauApp.swift; sourceTree = "<group>"; };
+		D06D79E160AD5875F0D3E12E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DC8CFF5090952FB44423B8EF /* AuthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeader.swift; sourceTree = "<group>"; };
+		E4759B9B4DB117E964782163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4E92F6C7E6AD1D18C726A9D /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000001 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000002 /* ChatAIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIScreen.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000003 /* ChatAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000004 /* BookmarkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkScreen.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000005 /* BookmarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000006 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000007 /* BookDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailScreen.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000008 /* AuthorDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailScreen.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000030 /* AnimatedChatInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedChatInput.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000033 /* GrainGradient.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = GrainGradient.metal; sourceTree = "<group>"; };
+		A1B2C3D4E5F60000000000035 /* SurauBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurauBackground.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E166172C575A88FC0CB2419 /* Surau - IOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4759B9B4DB117E964782163 /* ContentView.swift */,
+				A1B2C3D4E5F60000000000001 /* MainTabView.swift */,
+				CD89F1573BA2358819093A49 /* SurauApp.swift */,
+				A1B2C3D4E5F60000000000033 /* GrainGradient.metal */,
+				A1B2C3D4E5F60000000000035 /* SurauBackground.swift */,
+				14219163ED88BEEB7C73B097 /* .claude */,
+				D3435A80F9D2DC6A7E5E96DB /* Auth */,
+				94D8E621561CD5A30C054BE1 /* Book */,
+				A1B2C3D4E5F60000000000021 /* ChatAI */,
+				A1B2C3D4E5F60000000000022 /* Bookmark */,
+				A1B2C3D4E5F60000000000023 /* Profile */,
+			);
+			name = "Surau - IOS";
+			path = .;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60000000000021 /* ChatAI */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60000000000030 /* AnimatedChatInput.swift */,
+				A1B2C3D4E5F60000000000002 /* ChatAIScreen.swift */,
+				A1B2C3D4E5F60000000000003 /* ChatAIViewModel.swift */,
+			);
+			path = ChatAI;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60000000000022 /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60000000000004 /* BookmarkScreen.swift */,
+				A1B2C3D4E5F60000000000005 /* BookmarkViewModel.swift */,
+			);
+			path = Bookmark;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60000000000023 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60000000000006 /* ProfileScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		14219163ED88BEEB7C73B097 /* .claude */ = {
+			isa = PBXGroup;
+			children = (
+				CCDD9A9983572533B07DFC11 /* settings.local.json */,
+			);
+			path = .claude;
+			sourceTree = "<group>";
+		};
+		3A613DAE3E95F2052E7C67A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34626D988F22C173426DDECA /* Surau.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E3A663A6E92342F01DBBE8 = {
+			isa = PBXGroup;
+			children = (
+				14219163ED88BEEB7C73B097 /* .claude */,
+				D3435A80F9D2DC6A7E5E96DB /* Auth */,
+				94D8E621561CD5A30C054BE1 /* Book */,
+				0E166172C575A88FC0CB2419 /* Surau - IOS */,
+				3A613DAE3E95F2052E7C67A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EF704955CE3B27F283DBF27 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DC8CFF5090952FB44423B8EF /* AuthHeader.swift */,
+				E4E92F6C7E6AD1D18C726A9D /* AuthTextField.swift */,
+				3D978D9FF000868E7202159A /* BrandTheme.swift */,
+				C042B4A62B55C250AB255ABF /* PrimaryButton.swift */,
+				AF585752181134C7EB169D6B /* SocialButton.swift */,
+				BB2C6373737BAD9ABC5DF277 /* SocialDivider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		94D8E621561CD5A30C054BE1 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60000000000008 /* AuthorDetailScreen.swift */,
+				A1B2C3D4E5F60000000000007 /* BookDetailScreen.swift */,
+				1B62BBEDC1E3AAA3FE10CD06 /* BookScreen.swift */,
+				47823C1278F90BDED8033FE4 /* BookViewModel.swift */,
+				21C782B86F2395D28BAF7C50 /* GeistBook.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		D3435A80F9D2DC6A7E5E96DB /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				074C6776B2EC287A2D10FFE6 /* AuthRouter.swift */,
+				5D315C846269BFA01C357384 /* AuthViewModel.swift */,
+				342D4E503DABE8ED8D43993D /* ForgotPasswordView.swift */,
+				D06D79E160AD5875F0D3E12E /* LoginView.swift */,
+				0A51B3FC14731A891B6D0925 /* SignUpView.swift */,
+				8EF704955CE3B27F283DBF27 /* Components */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B914288D0987F0DE99E754F /* Surau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1908152D55204325EC69228 /* Build configuration list for PBXNativeTarget "Surau" */;
+			buildPhases = (
+				FF7D764A752430AC75F3B568 /* Sources */,
+				8B66269AC09DB09A80CF152C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surau;
+			packageProductDependencies = (
+			);
+			productName = Surau;
+			productReference = 34626D988F22C173426DDECA /* Surau.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F109BF7156814AF2D5178588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 3611CB3FB3C8BFA037F5B780 /* Build configuration list for PBXProject "Surau" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 87E3A663A6E92342F01DBBE8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3A613DAE3E95F2052E7C67A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B914288D0987F0DE99E754F /* Surau */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B66269AC09DB09A80CF152C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E85C9A4F9F353505B1AE672 /* settings.local.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7D764A752430AC75F3B568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AFBB762F6947FD2DA0B689 /* AuthHeader.swift in Sources */,
+				31743346FE6AD2CAE2859035 /* AuthRouter.swift in Sources */,
+				F84190C15A2DB1849540FD10 /* AuthTextField.swift in Sources */,
+				2A29A0549E746D4F182DF5A4 /* AuthViewModel.swift in Sources */,
+				1DC5CECE7057AFF68DF208FA /* BookScreen.swift in Sources */,
+				3964A029A5D0EE9FDCF8A480 /* BookViewModel.swift in Sources */,
+				A1B2C3D4E5F60000000000014 /* BookmarkScreen.swift in Sources */,
+				A1B2C3D4E5F60000000000015 /* BookmarkViewModel.swift in Sources */,
+				06AC6376CFCA6D88E9C4ACD5 /* BrandTheme.swift in Sources */,
+				A1B2C3D4E5F60000000000018 /* AuthorDetailScreen.swift in Sources */,
+				A1B2C3D4E5F60000000000017 /* BookDetailScreen.swift in Sources */,
+				A1B2C3D4E5F60000000000031 /* AnimatedChatInput.swift in Sources */,
+				A1B2C3D4E5F60000000000032 /* GrainGradient.metal in Sources */,
+				A1B2C3D4E5F60000000000034 /* SurauBackground.swift in Sources */,
+				A1B2C3D4E5F60000000000012 /* ChatAIScreen.swift in Sources */,
+				A1B2C3D4E5F60000000000013 /* ChatAIViewModel.swift in Sources */,
+				F2228659DD42E732C946BE19 /* ContentView.swift in Sources */,
+				60A572F685001FFA15BB485F /* ForgotPasswordView.swift in Sources */,
+				5B21C0BE1F4B1AC336599323 /* GeistBook.swift in Sources */,
+				9C914E25DD9396E54A458A2C /* LoginView.swift in Sources */,
+				A1B2C3D4E5F60000000000011 /* MainTabView.swift in Sources */,
+				EA5C3B9276B41DAB567AE59C /* PrimaryButton.swift in Sources */,
+				A1B2C3D4E5F60000000000016 /* ProfileScreen.swift in Sources */,
+				B956521F06D33F520FB72213 /* SignUpView.swift in Sources */,
+				5AE5E25C34E194C212F5F150 /* SocialButton.swift in Sources */,
+				DF60F97D2178F2381171E204 /* SocialDivider.swift in Sources */,
+				0369F0611EC03F5E287F030F /* SurauApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D17B46C042AFC4711F5E555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		86419E53AF9E35CBADFD461A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8AC8449FF03FE17F37297EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surau.app;
+				PRODUCT_NAME = Surau;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C84D2492E7BD0EC12096D081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surau.app;
+				PRODUCT_NAME = Surau;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3611CB3FB3C8BFA037F5B780 /* Build configuration list for PBXProject "Surau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86419E53AF9E35CBADFD461A /* Debug */,
+				2D17B46C042AFC4711F5E555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1908152D55204325EC69228 /* Build configuration list for PBXNativeTarget "Surau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84D2492E7BD0EC12096D081 /* Debug */,
+				8AC8449FF03FE17F37297EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F109BF7156814AF2D5178588 /* Project object */;
+}
